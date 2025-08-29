@@ -2,7 +2,7 @@
 
 This case study demonstrates how I built a **production-style Power BI solution** on top of a SQL-backed pipeline to turn messy lead drops into **clean, de-duplicated, decision-ready** insights. The model uses **DAX measures** for explainable KPIs (conversion, follow-up rate, revenue, average days to convert), and runs with **scheduled refresh** so sales/ops always see the latest truth.
 
----
+
 
 ## Overview (What this solves)
 Lead data used to live in multiple Excel files, creating duplicates and delayed follow-ups. I connected Power BI directly to **SQL Server** tables produced by my ETL (staging → cleaned/rejected → master → reporting). This eliminated manual exports and made the dashboard **reliable, repeatable, and always in sync**.
@@ -12,7 +12,7 @@ Lead data used to live in multiple Excel files, creating duplicates and delayed 
 - Faster decisions via **slicers, drillthrough**, and **tooltips** instead of cluttered pages.
 - Hands-off operations with **Power BI scheduled refresh**.
 
----
+
 
 ## Business questions answered
 - Which **sources** (e.g., MagicBricks, Instagram, Referrals) convert best?
@@ -20,7 +20,7 @@ Lead data used to live in multiple Excel files, creating duplicates and delayed 
 - Which **agents/areas/property types** drive the most impact?
 
 
----
+
 
 ## Core measures (DAX highlights)
 DAX
